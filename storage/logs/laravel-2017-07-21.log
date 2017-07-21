@@ -1,0 +1,126 @@
+[2017-07-21 21:01:22] production.ERROR: ErrorException: file_put_contents(/home/tbalthazar/work/tests/meu-cachet/Cachet/bootstrap/cache/services.php): failed to open stream: No such file or directory in /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:109
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/tbalthaza...', 109, Array)
+#1 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): file_put_contents('/home/tbalthaza...', '<?php return ar...', 0)
+#2 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(189): Illuminate\Filesystem\Filesystem->put('/home/tbalthaza...', '<?php return ar...')
+#3 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(135): Illuminate\Foundation\ProviderRepository->writeManifest(Array)
+#4 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(60): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#5 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Foundation\ProviderRepository->load(Array)
+#6 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#7 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(219): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(105): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/tbalthazar/work/tests/meu-cachet/Cachet/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"identification":{"id":"ffbc1d3f-e31c-4e75-90ab-6cfd9904e5d6"}} 
+[2017-07-21 21:01:51] production.ERROR: ErrorException: file_put_contents(/home/tbalthazar/work/tests/meu-cachet/Cachet/bootstrap/cache/services.php): failed to open stream: No such file or directory in /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:109
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/tbalthaza...', 109, Array)
+#1 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): file_put_contents('/home/tbalthaza...', '<?php return ar...', 0)
+#2 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(189): Illuminate\Filesystem\Filesystem->put('/home/tbalthaza...', '<?php return ar...')
+#3 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(135): Illuminate\Foundation\ProviderRepository->writeManifest(Array)
+#4 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(60): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#5 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Foundation\ProviderRepository->load(Array)
+#6 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#7 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(219): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(105): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/tbalthazar/work/tests/meu-cachet/Cachet/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"identification":{"id":"0d502d77-e580-41d9-bfd9-b3e591d2574c"}} 
+[2017-07-21 21:02:06] production.ERROR: ErrorException: file_put_contents(/home/tbalthazar/work/tests/meu-cachet/Cachet/bootstrap/cache/services.php): failed to open stream: No such file or directory in /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:109
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/tbalthaza...', 109, Array)
+#1 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): file_put_contents('/home/tbalthaza...', '<?php return ar...', 0)
+#2 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(189): Illuminate\Filesystem\Filesystem->put('/home/tbalthaza...', '<?php return ar...')
+#3 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(135): Illuminate\Foundation\ProviderRepository->writeManifest(Array)
+#4 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(60): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#5 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Foundation\ProviderRepository->load(Array)
+#6 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#7 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(219): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(105): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/tbalthazar/work/tests/meu-cachet/Cachet/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"identification":{"id":"3ef99b8c-9894-425e-8fe6-bc74717f5fef"}} 
+[2017-07-21 21:02:11] production.ERROR: ErrorException: file_put_contents(/home/tbalthazar/work/tests/meu-cachet/Cachet/bootstrap/cache/services.php): failed to open stream: No such file or directory in /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:109
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/tbalthaza...', 109, Array)
+#1 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): file_put_contents('/home/tbalthaza...', '<?php return ar...', 0)
+#2 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(189): Illuminate\Filesystem\Filesystem->put('/home/tbalthaza...', '<?php return ar...')
+#3 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(135): Illuminate\Foundation\ProviderRepository->writeManifest(Array)
+#4 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(60): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#5 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Foundation\ProviderRepository->load(Array)
+#6 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#7 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(219): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(105): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/tbalthazar/work/tests/meu-cachet/Cachet/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"identification":{"id":"399c7a58-51c4-4518-97d1-84fc625b5529"}} 
+[2017-07-21 21:03:42] production.ERROR: ErrorException: file_put_contents(/home/tbalthazar/work/tests/meu-cachet/Cachet/bootstrap/cache/services.php): failed to open stream: No such file or directory in /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:109
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/tbalthaza...', 109, Array)
+#1 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): file_put_contents('/home/tbalthaza...', '<?php return ar...', 0)
+#2 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(189): Illuminate\Filesystem\Filesystem->put('/home/tbalthaza...', '<?php return ar...')
+#3 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(135): Illuminate\Foundation\ProviderRepository->writeManifest(Array)
+#4 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(60): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#5 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Foundation\ProviderRepository->load(Array)
+#6 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#7 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(219): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(105): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/tbalthazar/work/tests/meu-cachet/Cachet/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"identification":{"id":"ec4d2373-1185-4b7b-be8b-74ccf04f90a9"}} 
+[2017-07-21 21:03:45] production.ERROR: ErrorException: file_put_contents(/home/tbalthazar/work/tests/meu-cachet/Cachet/bootstrap/cache/services.php): failed to open stream: No such file or directory in /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:109
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/tbalthaza...', 109, Array)
+#1 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): file_put_contents('/home/tbalthaza...', '<?php return ar...', 0)
+#2 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(189): Illuminate\Filesystem\Filesystem->put('/home/tbalthaza...', '<?php return ar...')
+#3 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(135): Illuminate\Foundation\ProviderRepository->writeManifest(Array)
+#4 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(60): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#5 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Foundation\ProviderRepository->load(Array)
+#6 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#7 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(219): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(105): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/tbalthazar/work/tests/meu-cachet/Cachet/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"identification":{"id":"bc2e3eb2-b389-4085-9f8e-a269786a967d"}} 
+[2017-07-21 21:04:31] production.ERROR: ErrorException: file_put_contents(/home/tbalthazar/work/tests/meu-cachet/Cachet/bootstrap/cache/services.php): failed to open stream: No such file or directory in /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:109
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/tbalthaza...', 109, Array)
+#1 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): file_put_contents('/home/tbalthaza...', '<?php return ar...', 0)
+#2 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(189): Illuminate\Filesystem\Filesystem->put('/home/tbalthaza...', '<?php return ar...')
+#3 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(135): Illuminate\Foundation\ProviderRepository->writeManifest(Array)
+#4 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(60): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#5 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Foundation\ProviderRepository->load(Array)
+#6 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#7 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(219): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(105): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/tbalthazar/work/tests/meu-cachet/Cachet/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"identification":{"id":"3e6a0692-8e3d-4ed7-b89e-47c617f2453e"}} 
+[2017-07-21 21:04:39] production.ERROR: ErrorException: file_put_contents(/home/tbalthazar/work/tests/meu-cachet/Cachet/bootstrap/cache/services.php): failed to open stream: No such file or directory in /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:109
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/tbalthaza...', 109, Array)
+#1 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): file_put_contents('/home/tbalthaza...', '<?php return ar...', 0)
+#2 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(189): Illuminate\Filesystem\Filesystem->put('/home/tbalthaza...', '<?php return ar...')
+#3 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(135): Illuminate\Foundation\ProviderRepository->writeManifest(Array)
+#4 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(60): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#5 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Foundation\ProviderRepository->load(Array)
+#6 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#7 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(219): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(105): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/tbalthazar/work/tests/meu-cachet/Cachet/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"identification":{"id":"a55a6f8e-4129-4e3e-acb1-f01583e3d5d3"}} 
+[2017-07-21 21:04:42] production.ERROR: ErrorException: file_put_contents(/home/tbalthazar/work/tests/meu-cachet/Cachet/bootstrap/cache/services.php): failed to open stream: No such file or directory in /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:109
+Stack trace:
+#0 [internal function]: Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'file_put_conten...', '/home/tbalthaza...', 109, Array)
+#1 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(109): file_put_contents('/home/tbalthaza...', '<?php return ar...', 0)
+#2 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(189): Illuminate\Filesystem\Filesystem->put('/home/tbalthaza...', '<?php return ar...')
+#3 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(135): Illuminate\Foundation\ProviderRepository->writeManifest(Array)
+#4 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/ProviderRepository.php(60): Illuminate\Foundation\ProviderRepository->compileManifest(Array)
+#5 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(530): Illuminate\Foundation\ProviderRepository->load(Array)
+#6 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/RegisterProviders.php(17): Illuminate\Foundation\Application->registerConfiguredProviders()
+#7 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(203): Illuminate\Foundation\Bootstrap\RegisterProviders->bootstrap(Object(Illuminate\Foundation\Application))
+#8 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(219): Illuminate\Foundation\Application->bootstrapWith(Array)
+#9 /home/tbalthazar/work/tests/meu-cachet/Cachet/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(105): Illuminate\Foundation\Console\Kernel->bootstrap()
+#10 /home/tbalthazar/work/tests/meu-cachet/Cachet/artisan(35): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 {main} {"identification":{"id":"57232244-ba6f-4caf-82b8-f3787cefd70b"}} 
