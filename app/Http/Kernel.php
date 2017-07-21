@@ -43,6 +43,8 @@ class Kernel extends HttpKernel
             'CachetHQ\Cachet\Http\Middleware\Acceptable',
             'CachetHQ\Cachet\Http\Middleware\Timezone',
         ],
+
+        'socialitex' => ['CachetHQ\Cachet\Http\Middleware\SocialiteRedirectToProviderMiddleware'],
     ];
 
     /**

@@ -188,6 +188,7 @@ return [
         'CachetHQ\Cachet\Foundation\Providers\EventServiceProvider',
         'CachetHQ\Cachet\Foundation\Providers\RepositoryServiceProvider',
         'CachetHQ\Cachet\Foundation\Providers\RouteServiceProvider',
+        'Laravel\Socialite\SocialiteServiceProvider'
 
     ]),
 
@@ -236,6 +237,8 @@ return [
 
         'Binput' => 'GrahamCampbell\Binput\Facades\Binput',
         'Str'    => 'Illuminate\Support\Str',
+
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
 
     ],
 
