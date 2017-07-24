@@ -74,7 +74,7 @@ class GoogleAuthController extends Controller
 	    Auth::login($my_user);
             echo "logou sem criar..";
 	}
-        return redirect('/');
+ //       return redirect('/');
 
     }
 }
