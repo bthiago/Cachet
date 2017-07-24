@@ -30,6 +30,7 @@ class GoogleAuthController extends Controller
     public function handleProviderCallback()
     {
         echo "asking user details...";
+        echo "asking user details[2]...";
         $user = Socialite::driver('google')->user();
         // $user->token;
 
