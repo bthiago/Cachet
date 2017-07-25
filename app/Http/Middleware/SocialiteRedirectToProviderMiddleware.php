@@ -22,9 +22,7 @@ class SocialiteRedirectToProviderMiddleware
 		/**
 		 * If user has signed in yet redirect him to somewhere.
 		 */
-                echo "AUTH checking";
 		if (auth()->check()) {
-                echo "AUTH checked";
 			return $next($request);
 		}
 		

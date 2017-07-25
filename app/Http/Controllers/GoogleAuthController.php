@@ -29,16 +29,12 @@ class GoogleAuthController extends Controller
      */
     public function handleProviderCallback()
     {
-        //echo "asking user details...";
-        //echo "asking user details[2]...";
         $user = Socialite::driver('google')->user();
         // $user->token;
 
-        echo "passou user details..";
         $domain =  config('services.google.domain');
 
 
-        echo "pegou domains..";
         if ($domain){
             $email = $user->getEmail();
             $allowed = array($domain);
@@ -63,17 +59,12 @@ class GoogleAuthController extends Controller
 	    
 	// Here, check if the user already exists in your records
 
-        echo "vai buscar user...";
 	$my_user = User::where('email','=', $user->getEmail())->first();
 	if($my_user === null) {
-            echo "vai LOGAR criando...";
             return;
 	    Auth::login(User::firstOrCreate($data));
-            echo "logou criando...";
 	} else {
-            echo "vai logar sem criar..";
 	    Auth::login($my_user);
-            echo "logou sem criar..";
 	}
           return;
  //       return redirect('/');
