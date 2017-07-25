@@ -61,7 +61,6 @@ class GoogleAuthController extends Controller
 
 	$my_user = User::where('email','=', $user->getEmail())->first();
 	if($my_user === null) {
-            return;
 	    Auth::login(User::firstOrCreate($data));
 	} else {
 	    Auth::login($my_user);
