@@ -66,8 +66,7 @@ class GoogleAuthController extends Controller
 	} else {
 	    Auth::login($my_user);
 	}
-          return;
- //       return redirect('/');
+        return redirect('/');
 
     }
 }
