@@ -7,6 +7,10 @@ use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Auth;
 use CachetHQ\Cachet\Models\User;
 use Illuminate\Support\Facades\Hash;
+use Illuminate\Support\Facades\View;
+use Illuminate\Http\Request;
+use Session;
+
 
 
 class GoogleAuthController extends Controller
@@ -22,12 +26,16 @@ class GoogleAuthController extends Controller
         return Socialite::driver('google')->redirect();
     }
 
+    public function notAllowed(Request $request){
+        return View::make('not-allowed')->withEmail($request->input('e'));
+    }
+
     /**
      * Obtain the user information from GitHub.
      *
      * @return Response
      */
-    public function handleProviderCallback()
+    public function handleProviderCallback(Request $request)
     {
         $user = Socialite::driver('google')->user();
         // $user->token;
@@ -42,8 +50,12 @@ class GoogleAuthController extends Controller
             $domain = array_pop($explodedEmail);
             if ( ! in_array($domain, $allowed))
             {
-                echo "$email not allowed!";
-                return;
+                //echo "$email not allowed!";
+                //return;
+                Auth::logout();
+                $request->session()->flush();
+                Session::flush();
+        	return redirect("/notallowed?e=$email");
             }
         }
 

@@ -29,7 +29,7 @@ class SocialiteRedirectToProviderMiddleware
 		/**
 		 * Otherwise, redirect him to current socialite driver's authorization page.
 		 */
-		return Socialite::driver($providerDriver)->redirect();
+		return Socialite::driver($providerDriver)->with(['approval_prompt'=>'force'])->redirect();
 		
 	}
 }

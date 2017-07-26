@@ -18,6 +18,7 @@ class GoogleAuthRoutes
         $router->group(['middleware' => ['web','ready', 'localize']], function (Registrar $router) {
             $router->get('/google','GoogleAuthController@redirectToProvider');
             $router->get('/google/callback', 'GoogleAuthController@handleProviderCallback');
+            $router->get('/notallowed','GoogleAuthController@notAllowed');
         });
     }
 }
