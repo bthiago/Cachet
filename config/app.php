@@ -188,6 +188,7 @@ return [
         'CachetHQ\Cachet\Foundation\Providers\EventServiceProvider',
         'CachetHQ\Cachet\Foundation\Providers\RepositoryServiceProvider',
         'CachetHQ\Cachet\Foundation\Providers\RouteServiceProvider',
+        'Laravel\Socialite\SocialiteServiceProvider'
 
     ]),
 
@@ -234,8 +235,10 @@ return [
         'Validator' => 'Illuminate\Support\Facades\Validator',
         'View'      => 'Illuminate\Support\Facades\View',
 
-        'Binput'    => 'GrahamCampbell\Binput\Facades\Binput',
-        'Str'       => 'Illuminate\Support\Str',
+        'Binput' => 'GrahamCampbell\Binput\Facades\Binput',
+        'Str'    => 'Illuminate\Support\Str',
+
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
 
     ],
 

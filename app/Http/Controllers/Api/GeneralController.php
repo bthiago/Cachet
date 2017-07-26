@@ -11,8 +11,8 @@
 
 namespace CachetHQ\Cachet\Http\Controllers\Api;
 
-use CachetHQ\Cachet\Integrations\Contracts\Releases;
 use CachetHQ\Cachet\Integrations\Contracts\System;
+use CachetHQ\Cachet\Integrations\Releases;
 
 /**
  * This is the general api controller.
@@ -55,6 +55,9 @@ class GeneralController extends AbstractApiController
     {
         $system = app()->make(System::class)->getStatus();
 
-        return $this->item($system['system_message']);
+        return $this->item([
+            'status'  => $system['system_status'],
+            'message' => $system['system_message'],
+        ]);
     }
 }
